@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body
+    class="w-full min-h-100svh bg-myVeryDarkBlueBody py-4 px-6 grid place-items-center font-mine">
+    <main
+      class="w-full max-w-[327px] rounded-2xl bg-myVeryDarkBlueCard flex flex-col justify-center items-center gap-4 p-6 shadow-2xl">
+      <div class="w-full relative">
+        <img
+          src="./images/image-equilibrium.jpg"
+          alt="Equilibrium image"
+          class="w-full object-contain rounded-lg" />
+        <div
+          class="w-full h-full flex justify-center items-center bg-myCyanWithOpacity absolute top-0 left-0 rounded-xl opacity-0 hover:opacity-100 duration-200 cursor-pointer">
+          <img src="./images/icon-view.svg" alt="eye icon" />
+        </div>
+      </div>
+      <h1
+        class="w-full text-myWhite hover:text-myCyan text-left font-semibold text-2xl cursor-pointer">
+        Equilibrium #3429
+      </h1>
+      <p class="w-full text-left text-mySoftBlue text-lg font-light">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="w-full flex justify-between items-center">
+        <div class="flex justify-center items-center gap-2">
+          <img src="./images/icon-ethereum.svg" alt="icon ethereum" />
+          <p class="text-myCyan font-semibold">0.041 ETH</p>
+        </div>
+        <div class="flex justify-center items-center gap-2">
+          <img src="./images/icon-clock.svg" alt="icon ethereum" />
+          <p class="text-mySoftBlue font-normal">3 days left</p>
+        </div>
+      </div>
+      <hr class="bg-myVeryDarkBlueLine w-full" />
+      <section class="w-full flex items-center gap-6">
+        <img
+          src="./images/image-avatar.png"
+          alt="jules avatar"
+          class="h-10 border-2 rounded-full" />
+        <h2 class="text-mySoftBlue s">
+          Creation of
+          <span class="text-myWhite hover:text-myCyan text-lg font-normal cursor-pointer">
+            Jules Wyvern
+          </span>
+        </h2>
+      </section>
+    </main>
+  </body>
+</html>
